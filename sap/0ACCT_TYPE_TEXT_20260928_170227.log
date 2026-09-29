@@ -1,0 +1,4 @@
+2026-09-28 17:02:27,518 [INFO] === Analysis started for datasource=0ACCT_TYPE_TEXT objvers=A ===
+2026-09-28 17:02:28,280 [INFO] ROOSOURCE resolved: EXTRACTOR=KOART EXMETHOD=D
+2026-09-28 17:02:32,308 [INFO] JSON report written to sap\0ACCT_TYPE_TEXT.json
+2026-09-28 17:02:32,308 [INFO] === Analysis finished ===

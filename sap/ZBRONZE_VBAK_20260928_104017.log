@@ -1,0 +1,4 @@
+2026-09-28 10:40:17,407 [INFO] === Analysis started for datasource=ZBRONZE_VBAK objvers=A ===
+2026-09-28 10:40:18,202 [INFO] ROOSOURCE resolved: EXTRACTOR=ZBRONZE_VBAK EXMETHOD=V
+2026-09-28 10:40:20,608 [INFO] JSON report written to sap\ZBRONZE_VBAK.json
+2026-09-28 10:40:20,608 [INFO] === Analysis finished ===

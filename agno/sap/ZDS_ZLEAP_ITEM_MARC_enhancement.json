@@ -1,0 +1,21 @@
+{
+  "datasource": "ZDS_ZLEAP_ITEM_MARC",
+  "objvers": "A",
+  "datasource_type": "ATTR",
+  "enhancement_include": "ZXRSAU02",
+  "datasource_branch_found": false,
+  "enhanced_fields": [],
+  "tables": [],
+  "source_objects": [],
+  "unresolved_symbols": [],
+  "manual_review": [],
+  "recursion_truncated": false,
+  "errors": [
+    {
+      "stage": "SOURCE_RETRIEVAL",
+      "object": "ZXRSAU02",
+      "object_type": "INCL",
+      "type": "NOT_RETRIEVED"
+    }
+  ]
+}

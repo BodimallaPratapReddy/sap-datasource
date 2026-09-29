@@ -1,0 +1,4 @@
+2026-09-28 16:21:59,234 [INFO] === Analysis started for datasource=ZDS_ZLEAP_ITEM_MARC objvers=A ===
+2026-09-28 16:21:59,940 [INFO] ROOSOURCE resolved: EXTRACTOR=ZLEAP_ITEM_MARC EXMETHOD=Q
+2026-09-28 16:22:12,590 [INFO] JSON report written to sap\ZDS_ZLEAP_ITEM_MARC.json
+2026-09-28 16:22:12,591 [INFO] === Analysis finished ===

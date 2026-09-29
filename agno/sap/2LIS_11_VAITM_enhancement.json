@@ -1,0 +1,144 @@
+{
+  "datasource": "2LIS_11_VAITM",
+  "objvers": "A",
+  "datasource_type": "TRAN",
+  "enhancement_include": "ZXRSAU01",
+  "datasource_branch_found": true,
+  "enhanced_fields": [
+    {
+      "name": "ZLFSTA",
+      "source_table": null,
+      "source_field": "LV_LFSTA",
+      "evidence": {
+        "object": "ZXRSAU01",
+        "object_type": "INCL",
+        "line_start": 113,
+        "line_end": 113,
+        "snippet": "                AND posnr = <fs_mc11va0itm>-posnr.\n      IF sy-subrc = 0.\n        <fs_mc11va0itm>-zlfsta = lv_lfsta.\n      ENDIF.\n    ENDLOOP.",
+        "discovery_path": [
+          "ZXRSAU01"
+        ],
+        "usage": "field_assignment"
+      },
+      "confidence": "Low"
+    },
+    {
+      "name": "ZLFSTA",
+      "source_table": null,
+      "source_field": "LV_LFSTA",
+      "evidence": {
+        "object": "ZXRSAU01",
+        "object_type": "INCL",
+        "line_start": 314,
+        "line_end": 314,
+        "snippet": "                AND posnr = <fs_mc11va0itm>-posnr.\n      IF sy-subrc = 0.\n        <fs_mc11va0itm>-zlfsta = lv_lfsta.\n      ENDIF.\n    ENDLOOP.",
+        "discovery_path": [
+          "ZXRSAU01"
+        ],
+        "usage": "field_assignment"
+      },
+      "confidence": "Low"
+    },
+    {
+      "name": "ZLFSTA",
+      "source_table": null,
+      "source_field": "LV_LFSTA",
+      "evidence": {
+        "object": "ZXRSAU01",
+        "object_type": "INCL",
+        "line_start": 513,
+        "line_end": 513,
+        "snippet": "                AND posnr = <fs_mc11va0itm>-posnr.\n      IF sy-subrc = 0.\n        <fs_mc11va0itm>-zlfsta = lv_lfsta.\n      ENDIF.\n    ENDLOOP.",
+        "discovery_path": [
+          "ZXRSAU01"
+        ],
+        "usage": "field_assignment"
+      },
+      "confidence": "Low"
+    }
+  ],
+  "tables": [
+    {
+      "name": "VBUP",
+      "role": "Core",
+      "description": "Sales Document: Item Status",
+      "ddic_object_type": "TRANSP",
+      "primary_key": [
+        "MANDT",
+        "POSNR",
+        "VBELN"
+      ],
+      "evidence": [
+        {
+          "object": "ZXRSAU01",
+          "object_type": "INCL",
+          "line_start": 109,
+          "line_end": 109,
+          "snippet": "    DATA: lv_lfsta TYPE vbup-lfsta.\n    LOOP AT c_t_data ASSIGNING <fs_mc11va0itm>.\n      SELECT SINGLE lfsta INTO lv_lfsta FROM vbup\n                WHERE vbeln = <fs_mc11va0itm>-vbeln\n                AND posnr = <fs_mc11va0itm>-posnr.",
+          "discovery_path": [
+            "ZXRSAU01"
+          ],
+          "usage": "select"
+        },
+        {
+          "object": "ZXRSAU01",
+          "object_type": "INCL",
+          "line_start": 310,
+          "line_end": 310,
+          "snippet": "    DATA: lv_lfsta TYPE vbup-lfsta.\n    LOOP AT c_t_data ASSIGNING <fs_mc11va0itm>.\n      SELECT SINGLE lfsta INTO lv_lfsta FROM vbup\n                WHERE vbeln = <fs_mc11va0itm>-vbeln\n                AND posnr = <fs_mc11va0itm>-posnr.",
+          "discovery_path": [
+            "ZXRSAU01"
+          ],
+          "usage": "select"
+        },
+        {
+          "object": "ZXRSAU01",
+          "object_type": "INCL",
+          "line_start": 509,
+          "line_end": 509,
+          "snippet": "    DATA: lv_lfsta TYPE vbup-lfsta.\n    LOOP AT c_t_data ASSIGNING <fs_mc11va0itm>.\n      SELECT SINGLE lfsta INTO lv_lfsta FROM vbup\n                WHERE vbeln = <fs_mc11va0itm>-vbeln\n                AND posnr = <fs_mc11va0itm>-posnr.",
+          "discovery_path": [
+            "ZXRSAU01"
+          ],
+          "usage": "select"
+        }
+      ],
+      "confidence": "High"
+    }
+  ],
+  "source_objects": [
+    "INCL:ZXRSAU01"
+  ],
+  "unresolved_symbols": [
+    {
+      "name": "DS2LIS_11_VAITM",
+      "object_type": "FORM",
+      "referenced_by": "ZXRSAU01",
+      "line": 102,
+      "discovery_path": [
+        "ZXRSAU01"
+      ]
+    },
+    {
+      "name": "DS2LIS_11_VAITM",
+      "object_type": "FORM",
+      "referenced_by": "ZXRSAU01",
+      "line": 303,
+      "discovery_path": [
+        "ZXRSAU01"
+      ]
+    },
+    {
+      "name": "DS2LIS_11_VAITM",
+      "object_type": "FORM",
+      "referenced_by": "ZXRSAU01",
+      "line": 502,
+      "discovery_path": [
+        "ZXRSAU01"
+      ]
+    }
+  ],
+  "manual_review": [],
+  "recursion_truncated": false,
+  "errors": []
+}

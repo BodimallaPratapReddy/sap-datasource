@@ -1,0 +1,21 @@
+{
+  "datasource": "0ACCT_TYPE_TEXT",
+  "objvers": "A",
+  "datasource_type": "TEXT",
+  "enhancement_include": "ZXRSAU03",
+  "datasource_branch_found": false,
+  "enhanced_fields": [],
+  "tables": [],
+  "source_objects": [],
+  "unresolved_symbols": [],
+  "manual_review": [],
+  "recursion_truncated": false,
+  "errors": [
+    {
+      "stage": "SOURCE_RETRIEVAL",
+      "object": "ZXRSAU03",
+      "object_type": "INCL",
+      "type": "NOT_RETRIEVED"
+    }
+  ]
+}

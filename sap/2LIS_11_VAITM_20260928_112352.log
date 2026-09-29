@@ -1,0 +1,4 @@
+2026-09-28 11:23:52,541 [INFO] === Analysis started for datasource=2LIS_11_VAITM objvers=A ===
+2026-09-28 11:23:53,368 [INFO] ROOSOURCE resolved: EXTRACTOR=MCEX_BW_LO_API EXMETHOD=F1
+2026-09-28 11:24:13,042 [INFO] JSON report written to sap\2LIS_11_VAITM.json
+2026-09-28 11:24:13,042 [INFO] === Analysis finished ===

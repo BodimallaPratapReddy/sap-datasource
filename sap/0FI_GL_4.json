@@ -1,0 +1,22 @@
+{
+  "datasource": "0FI_GL_4",
+  "objvers": "A",
+  "exmethod": "",
+  "extractor": "",
+  "tables": [],
+  "recommendations": [
+    "The datasource 0FI_GL_4 was not found in table ROOSOURCE for OBJVERS 'A'. Please verify the datasource name or the active version of the object in the SAP system."
+  ],
+  "candidates_for_manual_review": [],
+  "errors": [
+    {
+      "stage": "ROOSOURCE_LOOKUP",
+      "object": "ROOSOURCE",
+      "type": "NOT_FOUND",
+      "message": "No entry found for OLTPSOURCE = '0FI_GL_4'",
+      "recoverable": true
+    }
+  ],
+  "extractor_change_fields": [],
+  "fabric_replication": []
+}
